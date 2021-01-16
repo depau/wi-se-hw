@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC74VHC1G
+F https://www.mouser.it/datasheet/2/308/MC74VHC1G08_D-1625854.pdf
+$ENDCMP
+#
+$CMP NL27WZ00
+D Dual 2−input NAND Gate
+F https://www.mouser.it/datasheet/2/308/NL27WZ00_D-1813444.pdf
+$ENDCMP
+#
+$CMP NL27WZ32
+D Dual 2−input OR Gate
+F https://www.mouser.it/datasheet/2/308/NL27WZ32_D-1773595.pdf
+$ENDCMP
+#
+#End Doc Library
