@@ -1,4 +1,4 @@
-update=Thu 14 Jan 2021 03:31:01 AM CET
+update=Mon 18 Jan 2021 11:54:46 PM CET
 version=1
 last_client=kicad
 [general]
@@ -12,20 +12,10 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/tmp
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=wi-se.net
+LastNetListRead=wi-se-opi4.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -39,15 +29,18 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.3
-TrackWidth3=0.5
-TrackWidth4=0.75
+TrackWidth2=0.2
+TrackWidth3=0.3
+TrackWidth4=0.5
+TrackWidth5=0.75
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=0.8
-ViaDrill2=0.4
-ViaDiameter3=1
-ViaDrill3=0.8
+ViaDiameter2=0.5
+ViaDrill2=0.3
+ViaDiameter3=0.8
+ViaDrill3=0.4
+ViaDiameter4=1
+ViaDrill4=0.8
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -253,3 +246,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
