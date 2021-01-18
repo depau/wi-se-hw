@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Wi-Se ESP8266 - Raspberry Pi-style header version"
-Date "2021-01-14"
+Date "2021-01-18"
 Rev "v0.1"
 Comp "Davide Depau"
 Comment1 "Raspberry Pi-compatible header pinout"
@@ -32,6 +32,7 @@ F 0 "U1" H 1550 1392 50  0000 C CNN
 F 1 "AMS1117-3.3" H 1550 1301 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1550 1350 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 1650 900 50  0001 C CNN
+F 4 "C6186" H 1550 1150 50  0001 C CNN "LCSC Part"
 	1    1550 1150
 	1    0    0    -1  
 $EndComp
@@ -40,9 +41,10 @@ L Device:C_Small C1
 U 1 1 5FFE6E76
 P 1000 1350
 F 0 "C1" H 1092 1396 50  0000 L CNN
-F 1 "22u" H 1092 1305 50  0000 L CNN
+F 1 "10u" H 1092 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1000 1350 50  0001 C CNN
 F 3 "~" H 1000 1350 50  0001 C CNN
+F 4 "C13585" H 1000 1350 50  0001 C CNN "LCSC Part"
 	1    1000 1350
 	1    0    0    -1  
 $EndComp
@@ -51,9 +53,10 @@ L Device:C_Small C2
 U 1 1 5FFE705A
 P 2050 1350
 F 0 "C2" H 2142 1396 50  0000 L CNN
-F 1 "22u" H 2142 1305 50  0000 L CNN
+F 1 "10u" H 2142 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2050 1350 50  0001 C CNN
 F 3 "~" H 2050 1350 50  0001 C CNN
+F 4 "C13585" H 2050 1350 50  0001 C CNN "LCSC Part"
 	1    2050 1350
 	1    0    0    -1  
 $EndComp
@@ -206,6 +209,7 @@ F 0 "R1" V 1854 2450 50  0000 C CNN
 F 1 "1k5" V 1945 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 2450 50  0001 C CNN
 F 3 "~" H 2050 2450 50  0001 C CNN
+F 4 "C25867" H 2050 2450 50  0001 C CNN "LCSC Part"
 	1    2050 2450
 	0    1    1    0   
 $EndComp
@@ -248,6 +252,7 @@ F 0 "R2" V 1854 2950 50  0000 C CNN
 F 1 "2k2" V 1945 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 2950 50  0001 C CNN
 F 3 "~" H 2050 2950 50  0001 C CNN
+F 4 "C25879" H 2050 2950 50  0001 C CNN "LCSC Part"
 	1    2050 2950
 	0    1    1    0   
 $EndComp
@@ -292,6 +297,7 @@ F 0 "R3" V 3354 2450 50  0000 C CNN
 F 1 "2k2" V 3445 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3550 2450 50  0001 C CNN
 F 3 "~" H 3550 2450 50  0001 C CNN
+F 4 "C25879" H 3550 2450 50  0001 C CNN "LCSC Part"
 	1    3550 2450
 	0    1    1    0   
 $EndComp
@@ -336,6 +342,7 @@ F 0 "R4" V 3354 2950 50  0000 C CNN
 F 1 "2k2" V 3445 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3550 2950 50  0001 C CNN
 F 3 "~" H 3550 2950 50  0001 C CNN
+F 4 "C25879" H 3550 2950 50  0001 C CNN "LCSC Part"
 	1    3550 2950
 	0    1    1    0   
 $EndComp
@@ -419,9 +426,10 @@ L Device:C_Small C5
 U 1 1 600563A7
 P 9100 1900
 F 0 "C5" H 9192 1946 50  0000 L CNN
-F 1 "22u" H 9192 1855 50  0000 L CNN
+F 1 "10u" H 9192 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9100 1900 50  0001 C CNN
 F 3 "~" H 9100 1900 50  0001 C CNN
+F 4 "C13585" H 9100 1900 50  0001 C CNN "LCSC Part"
 	1    9100 1900
 	1    0    0    -1  
 $EndComp
@@ -433,6 +441,7 @@ F 0 "C6" H 9592 1946 50  0000 L CNN
 F 1 "0u1" H 9592 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 1900 50  0001 C CNN
 F 3 "~" H 9500 1900 50  0001 C CNN
+F 4 "C14663" H 9500 1900 50  0001 C CNN "LCSC Part"
 	1    9500 1900
 	1    0    0    -1  
 $EndComp
@@ -463,6 +472,7 @@ F 0 "R5" H 7359 1396 50  0000 L CNN
 F 1 "10k" H 7359 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7300 1350 50  0001 C CNN
 F 3 "~" H 7300 1350 50  0001 C CNN
+F 4 "C25744" H 7300 1350 50  0001 C CNN "LCSC Part"
 	1    7300 1350
 	1    0    0    -1  
 $EndComp
@@ -474,6 +484,7 @@ F 0 "R6" H 7359 2796 50  0000 L CNN
 F 1 "10k" H 7359 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7300 2750 50  0001 C CNN
 F 3 "~" H 7300 2750 50  0001 C CNN
+F 4 "C25744" H 7300 2750 50  0001 C CNN "LCSC Part"
 	1    7300 2750
 	1    0    0    -1  
 $EndComp
@@ -485,6 +496,7 @@ F 0 "R7" H 7359 4196 50  0000 L CNN
 F 1 "10k" H 7359 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7300 4150 50  0001 C CNN
 F 3 "~" H 7300 4150 50  0001 C CNN
+F 4 "C25744" H 7300 4150 50  0001 C CNN "LCSC Part"
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
@@ -535,6 +547,7 @@ F 0 "C7" H 7392 1796 50  0000 L CNN
 F 1 "0u1" H 7392 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7300 1750 50  0001 C CNN
 F 3 "~" H 7300 1750 50  0001 C CNN
+F 4 "C1546" H 7300 1750 50  0001 C CNN "LCSC Part"
 	1    7300 1750
 	1    0    0    -1  
 $EndComp
@@ -546,6 +559,7 @@ F 0 "C8" H 7392 3196 50  0000 L CNN
 F 1 "0u1" H 7392 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7300 3150 50  0001 C CNN
 F 3 "~" H 7300 3150 50  0001 C CNN
+F 4 "C1546" H 7300 3150 50  0001 C CNN "LCSC Part"
 	1    7300 3150
 	1    0    0    -1  
 $EndComp
@@ -557,6 +571,7 @@ F 0 "C9" H 7392 4596 50  0000 L CNN
 F 1 "0u1" H 7392 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7300 4550 50  0001 C CNN
 F 3 "~" H 7300 4550 50  0001 C CNN
+F 4 "C1546" H 7300 4550 50  0001 C CNN "LCSC Part"
 	1    7300 4550
 	1    0    0    -1  
 $EndComp
@@ -624,6 +639,7 @@ F 0 "R11" V 8304 3650 50  0000 C CNN
 F 1 "1k" V 8395 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8500 3650 50  0001 C CNN
 F 3 "~" H 8500 3650 50  0001 C CNN
+F 4 "C11702" H 8500 3650 50  0001 C CNN "LCSC Part"
 	1    8500 3650
 	0    1    1    0   
 $EndComp
@@ -635,6 +651,7 @@ F 0 "R12" V 8600 3750 50  0000 C CNN
 F 1 "1k" V 8700 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8500 3750 50  0001 C CNN
 F 3 "~" H 8500 3750 50  0001 C CNN
+F 4 "C11702" H 8500 3750 50  0001 C CNN "LCSC Part"
 	1    8500 3750
 	0    1    1    0   
 $EndComp
@@ -654,6 +671,7 @@ F 0 "R10" V 8304 3150 50  0000 C CNN
 F 1 "1k" V 8395 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8500 3150 50  0001 C CNN
 F 3 "~" H 8500 3150 50  0001 C CNN
+F 4 "C11702" H 8500 3150 50  0001 C CNN "LCSC Part"
 	1    8500 3150
 	0    1    1    0   
 $EndComp
@@ -669,6 +687,7 @@ F 0 "R13" V 9800 3150 50  0000 C CNN
 F 1 "1k" V 9900 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10000 3150 50  0001 C CNN
 F 3 "~" H 10000 3150 50  0001 C CNN
+F 4 "C11702" H 10000 3150 50  0001 C CNN "LCSC Part"
 	1    10000 3150
 	0    1    1    0   
 $EndComp
@@ -683,7 +702,7 @@ BOOT0
 Text Notes 650  3400 0    50   ~ 0
 ESPTool flash with RS232 adapter or SBC GPIO
 Text Notes 4350 5400 0    50   ~ 0
-    esptool.py auto program\n\nFLASH_EN  DTR RTS --> EN IO0\n    1       1   1         1   1\n    1       0   0         1   1\n    1       1   0         0   1\n    1       0   1         1   0\n---------------------\n    0       -  -         1   1 \n\nFLASH_EN can be masked by removing\nthe 0 ohm resistor marked FLASH_EN_MASK.\nIf removed, FLASH_EN will always be\nlow and therefore EN+IO0 will be pulled\nhigh.
+    esptool.py auto program\n\nFLASH_EN  DTR RTS --> EN IO0\n    1       1   1         1   1\n    1       0   0         1   1\n    1       1   0         0   1\n    1       0   1         1   0\n---------------------\n    0       -  -         1   1 \n\nFLASH_EN can be masked by removing\nthe 0 ohm resistor marked "FLEN disable".\nIf removed, FLASH_EN will always be\nlow and therefore EN+IO0 will be pulled\nhigh.
 Wire Notes Line
 	4250 2100 4250 3250
 Wire Notes Line
@@ -727,6 +746,7 @@ F 0 "Q4" V 2849 5400 50  0000 C CNN
 F 1 "2N7002" V 2940 5400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2800 5325 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2600 5400 50  0001 L CNN
+F 4 "C8545" H 2600 5400 50  0001 C CNN "LCSC Part"
 	1    2600 5400
 	0    1    1    0   
 $EndComp
@@ -738,6 +758,7 @@ F 0 "Q1" H 1841 4603 60  0000 L CNN
 F 1 "SS8050-G" H 1841 4497 60  0000 L CNN
 F 2 "SS8050-G:SS8050-G" H 1900 4450 60  0001 L CNN
 F 3 "" H 1550 4550 60  0000 C CNN
+F 4 "C2150" H 1650 4550 50  0001 C CNN "LCSC Part"
 	1    1650 4550
 	1    0    0    -1  
 $EndComp
@@ -749,6 +770,7 @@ F 0 "Q2" H 1841 5097 60  0000 L CNN
 F 1 "SS8050-G" H 1841 5203 60  0000 L CNN
 F 2 "SS8050-G:SS8050-G" H 1900 5050 60  0001 L CNN
 F 3 "" H 1550 5150 60  0000 C CNN
+F 4 "C2150" H 1650 5150 50  0001 C CNN "LCSC Part"
 	1    1650 5150
 	1    0    0    1   
 $EndComp
@@ -760,6 +782,7 @@ F 0 "R8" V 1154 4550 50  0000 C CNN
 F 1 "10k" V 1245 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1350 4550 50  0001 C CNN
 F 3 "~" H 1350 4550 50  0001 C CNN
+F 4 "C25744" H 1350 4550 50  0001 C CNN "LCSC Part"
 	1    1350 4550
 	0    1    1    0   
 $EndComp
@@ -771,6 +794,7 @@ F 0 "R9" V 1546 5150 50  0000 C CNN
 F 1 "10k" V 1455 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1350 5150 50  0001 C CNN
 F 3 "~" H 1350 5150 50  0001 C CNN
+F 4 "C25744" H 1350 5150 50  0001 C CNN "LCSC Part"
 	1    1350 5150
 	0    -1   -1   0   
 $EndComp
@@ -804,6 +828,7 @@ F 0 "R14" V 1804 4100 50  0000 C CNN
 F 1 "10k" V 1895 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2000 4100 50  0001 C CNN
 F 3 "~" H 2000 4100 50  0001 C CNN
+F 4 "C25744" H 2000 4100 50  0001 C CNN "LCSC Part"
 	1    2000 4100
 	0    1    1    0   
 $EndComp
@@ -839,6 +864,7 @@ F 0 "R15" V 2200 5600 50  0000 C CNN
 F 1 "10k" V 2300 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2100 5600 50  0001 C CNN
 F 3 "~" H 2100 5600 50  0001 C CNN
+F 4 "C25744" H 2100 5600 50  0001 C CNN "LCSC Part"
 	1    2100 5600
 	0    1    1    0   
 $EndComp
@@ -870,6 +896,7 @@ F 0 "Q3" V 2942 4300 50  0000 C CNN
 F 1 "2N7002" V 2851 4300 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2800 4225 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2600 4300 50  0001 L CNN
+F 4 "C8545" H 2600 4300 50  0001 C CNN "LCSC Part"
 	1    2600 4300
 	0    1    -1   0   
 $EndComp
@@ -900,6 +927,7 @@ F 0 "R16" H 3000 4600 50  0000 C CNN
 F 1 "10k" H 3000 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3150 4650 50  0001 C CNN
 F 3 "~" H 3150 4650 50  0001 C CNN
+F 4 "C25744" H 3150 4650 50  0001 C CNN "LCSC Part"
 	1    3150 4650
 	-1   0    0    1   
 $EndComp
@@ -914,6 +942,7 @@ F 0 "R17" H 3300 5100 50  0000 C CNN
 F 1 "10k" H 3300 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3150 5050 50  0001 C CNN
 F 3 "~" H 3150 5050 50  0001 C CNN
+F 4 "C25744" H 3150 5050 50  0001 C CNN "LCSC Part"
 	1    3150 5050
 	1    0    0    -1  
 $EndComp
@@ -971,6 +1000,7 @@ F 0 "R18" H 5100 2650 50  0000 C CNN
 F 1 "10k" H 5100 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 2700 50  0001 C CNN
 F 3 "~" H 4950 2700 50  0001 C CNN
+F 4 "C25744" H 4950 2700 50  0001 C CNN "LCSC Part"
 	1    4950 2700
 	-1   0    0    1   
 $EndComp
@@ -1048,6 +1078,7 @@ F 0 "R19" V 4954 2500 50  0000 C CNN
 F 1 "0" V 5045 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5150 2500 50  0001 C CNN
 F 3 "~" H 5150 2500 50  0001 C CNN
+F 4 "C17168" H 5150 2500 50  0001 C CNN "LCSC Part"
 	1    5150 2500
 	0    1    1    0   
 $EndComp
