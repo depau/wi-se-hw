@@ -1,3 +1,6 @@
 [submodule "libraries/kicad-ESP8266"]
 	path = libraries/kicad-ESP8266
 	url = https://github.com/jdunmire/kicad-ESP8266
+[submodule "tools/kicad-boardview"]
+	path = tools/kicad-boardview
+	url = https://github.com/whitequark/kicad-boardview.git
