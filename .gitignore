@@ -27,3 +27,5 @@ fp-info-cache
 *.xml
 *.csv
 
+# OpenBoardView database
+*_brd.sqlite3
