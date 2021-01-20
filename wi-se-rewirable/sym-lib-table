@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name esp8266)(type Legacy)(uri ${KIPRJMOD}/../libraries/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+  (lib (name SS8050-G)(type Legacy)(uri ${KIPRJMOD}/../libraries/SS8050-G/2021-01-13_16-03-03.lib)(options "")(descr ""))
+  (lib (name solder_jumper_45)(type Legacy)(uri ${KIPRJMOD}/../libraries/solder_jumper_45.lib)(options "")(descr ""))
+  (lib (name B3U-3100-P)(type Legacy)(uri ${KIPRJMOD}/..//libraries/B3U-3100-P/B3U-3100P-B.lib)(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name SS8050-G)(type KiCad)(uri ${KIPRJMOD}/../libraries/SS8050-G/footprints.pretty)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/../libraries/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
+  (lib (name B3U-3100-P)(type KiCad)(uri ${KIPRJMOD}/../libraries/B3U-3100-P/B3U-3100-P.pretty)(options "")(descr ""))
+  (lib (name aliexpress-switch)(type KiCad)(uri ${KIPRJMOD}/../libraries/aliexpress-switch.pretty)(options "")(descr ""))
+)

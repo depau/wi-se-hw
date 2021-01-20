@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SolderJumper_2_Open_45
+D Solder Jumper, 2-pole, open, 45°
+K solder jumper SPST 45
+F ~
+$ENDCMP
+#
+#End Doc Library
