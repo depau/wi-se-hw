@@ -137,7 +137,7 @@ U 1 1 5FFED12A
 P 3150 1350
 F 0 "SW1" H 3150 1635 50  0000 C CNN
 F 1 "RESET" H 3150 1544 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-3100P" H 3150 1550 50  0001 C CNN
+F 2 "aliexpress-switch:Tactile_Push_Button_SMD_3x3x1.5mm.kicad_mod" H 3150 1550 50  0001 C CNN
 F 3 "~" H 3150 1550 50  0001 C CNN
 	1    3150 1350
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 5FFE3C31
 P 4100 1350
 F 0 "SW2" H 4100 1635 50  0000 C CNN
 F 1 "BOOT0" H 4100 1544 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-3100P" H 4100 1550 50  0001 C CNN
+F 2 "aliexpress-switch:Tactile_Push_Button_SMD_3x3x1.5mm.kicad_mod" H 4100 1550 50  0001 C CNN
 F 3 "~" H 4100 1550 50  0001 C CNN
 	1    4100 1350
 	1    0    0    -1  

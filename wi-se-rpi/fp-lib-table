@@ -3,4 +3,5 @@
   (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/../libraries/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
   (lib (name ON-gates)(type KiCad)(uri ${KIPRJMOD}/../libraries/ON-gates.pretty)(options "")(descr ""))
   (lib (name JS102011SCQN)(type KiCad)(uri ${KIPRJMOD}/../libraries/JS102011SCQN/JS102011SCQN.pretty)(options "")(descr ""))
+  (lib (name aliexpress-switch)(type KiCad)(uri ${KIPRJMOD}/../libraries/aliexpress-switch.pretty)(options "")(descr ""))
 )
