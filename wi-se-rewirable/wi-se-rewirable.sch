@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Wi-Se ESP8266 - Orange Pi 4 version"
+Title "Wi-Se ESP8266 - Rewirable version"
 Date "2021-01-18"
 Rev "v0.1"
 Comp "Davide Depau"
