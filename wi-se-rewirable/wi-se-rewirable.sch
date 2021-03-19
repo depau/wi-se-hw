@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Wi-Se ESP8266 - Rewirable version"
-Date "2021-01-18"
-Rev "v0.1"
+Date "2021-03-19"
+Rev "v0.2"
 Comp "Davide Depau"
 Comment1 ""
 Comment2 ""
