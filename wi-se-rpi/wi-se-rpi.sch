@@ -5,25 +5,14 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Wi-Se ESP8266 - Raspberry Pi-style header version"
-Date "2021-01-18"
-Rev "v0.1"
+Date "2021-03-19"
+Rev "v0.2"
 Comp "Davide Depau"
 Comment1 "Raspberry Pi-compatible header pinout"
 Comment2 "The board is compatible with any board that uses a"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L RF_Module:ESP-WROOM-02 U2
-U 1 1 5FFE38E5
-P 9250 3550
-F 0 "U2" H 9450 2950 50  0000 L CNN
-F 1 "ESP-WROOM-02" H 9450 2850 50  0000 L CNN
-F 2 "RF_Module:ESP-WROOM-02" H 9850 3000 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf" H 9300 5050 50  0001 C CNN
-	1    9250 3550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:AMS1117-3.3 U1
 U 1 1 5FFE5180
@@ -359,7 +348,6 @@ Text GLabel 9750 3450 2    50   Input ~ 0
 LED_WIFI
 Text GLabel 9750 3750 2    50   Input ~ 0
 LED_STATUS
-NoConn ~ 9750 3850
 NoConn ~ 9750 3350
 NoConn ~ 8750 3450
 $Comp
@@ -1089,4 +1077,42 @@ Wire Wire Line
 	5250 2500 5300 2500
 Wire Wire Line
 	5300 2500 5300 2600
+$Comp
+L RF_Module:ESP-WROOM-02 U2
+U 1 1 5FFE38E5
+P 9250 3550
+F 0 "U2" H 9450 2950 50  0000 L CNN
+F 1 "ESP-WROOM-02" H 9450 2850 50  0000 L CNN
+F 2 "RF_Module:ESP-WROOM-02" H 9850 3000 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf" H 9300 5050 50  0001 C CNN
+	1    9250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 60554303
+P 10000 3850
+F 0 "R20" V 10100 3850 50  0000 C CNN
+F 1 "10k" V 10200 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10000 3850 50  0001 C CNN
+F 3 "~" H 10000 3850 50  0001 C CNN
+F 4 "C25744" H 10000 3850 50  0001 C CNN "LCSC Part"
+	1    10000 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 3850 9900 3850
+$Comp
+L power:GND #PWR06
+U 1 1 6055A1F4
+P 10450 3850
+F 0 "#PWR06" H 10450 3600 50  0001 C CNN
+F 1 "GND" H 10455 3677 50  0000 C CNN
+F 2 "" H 10450 3850 50  0001 C CNN
+F 3 "" H 10450 3850 50  0001 C CNN
+	1    10450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3850 10450 3850
 $EndSCHEMATC
